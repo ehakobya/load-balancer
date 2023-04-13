@@ -3,4 +3,4 @@ project(load_balancer C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(load_balancer src/User.c headers/InstanceHost.h headers/LoadBalancer.h src/InstanceHost.c src/InstanceHost.c src/LoadBalancer.c)
+add_executable(load_balancer User.c InstanceHost.h LoadBalancer.h InstanceHost.c InstanceHost.c LoadBalancer.c)

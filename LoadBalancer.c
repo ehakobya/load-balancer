@@ -6,7 +6,7 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
-#include "../headers/LoadBalancer.h"
+#include "LoadBalancer.h"
 #include <pthread.h>
 
 // DATA STRUCTURES
