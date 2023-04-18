@@ -9,7 +9,7 @@
 #ifndef INSTANCEHOST_H
 #define INSTANCEHOST_H
 
-#include "HakobyanLoadBalancer.h"
+#include "LoadBalancer.h"
 
 //struct for representing the host
 typedef struct host host;

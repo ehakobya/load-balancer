@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
-#include "HakobyanInstanceHost.h" // CHANGE
+#include "InstanceHost.h" // CHANGE
 
 
 // DATA STRUCTURES

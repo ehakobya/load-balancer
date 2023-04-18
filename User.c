@@ -13,7 +13,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <unistd.h>
-#include "HakobyanLoadBalancer.h"
+#include "LoadBalancer.h"
 
 //forward declarations for internal (private) functions.
 void* simulate_user_request(void* user_id);

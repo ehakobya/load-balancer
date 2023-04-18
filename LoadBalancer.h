@@ -8,7 +8,7 @@
 #ifndef LOADBALANCER_H
 #define LOADBALANCER_H
 
-#include "HakobyanInstanceHost.h"
+#include "InstanceHost.h"
 
 //struct for representing the load balancer
 typedef struct balancer balancer;

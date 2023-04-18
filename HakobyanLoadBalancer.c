@@ -7,7 +7,7 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
-#include "HakobyanLoadBalancer.h"
+#include "LoadBalancer.h"
 #include <pthread.h>
 
 // DATA STRUCTURES
