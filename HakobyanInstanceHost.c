@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
-#include "InstanceHost.h" // CHANGE
+#include "InstanceHost.h"
 
 
 // DATA STRUCTURES
@@ -49,7 +49,7 @@ void *runner(void *param) {
  * @return
  */
 host *host_create() {
-    host *h = (struct host *) malloc(sizeof(h));
+    host *h = (struct host *) malloc(sizeof(host));
     pthread_mutex_init(&h->lock, NULL);
     return h;
 }
